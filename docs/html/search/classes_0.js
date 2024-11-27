@@ -1,8 +1,24 @@
 var searchData=
 [
   ['cy_5fhpi_5fmaster_5fapp_5fcbk_5ft',['cy_hpi_master_app_cbk_t',['../structcy__hpi__master__app__cbk__t.html',1,'']]],
-  ['cy_5fhpi_5fmaster_5fcontext_5ft',['cy_hpi_master_context_t',['../group__group__hpim__data__structures.html#structcy__hpi__master__context__t',1,'']]],
-  ['cy_5fhpi_5fmaster_5fevent_5fqueue_5ft',['cy_hpi_master_event_queue_t',['../group__group__hpim__data__structures.html#structcy__hpi__master__event__queue__t',1,'']]],
-  ['cy_5fhpi_5fmaster_5fevent_5ft',['cy_hpi_master_event_t',['../group__group__hpim__data__structures.html#structcy__hpi__master__event__t',1,'']]],
-  ['cy_5fhpi_5fmaster_5fslave_5fdev_5ft',['cy_hpi_master_slave_dev_t',['../group__group__hpim__data__structures.html#structcy__hpi__master__slave__dev__t',1,'']]]
+  ['cy_5fhpi_5fmaster_5fcontext_5ft',['cy_hpi_master_context_t',['../structcy__hpi__master__context__t.html',1,'']]],
+  ['cy_5fhpi_5fmaster_5fevent_5fqueue_5ft',['cy_hpi_master_event_queue_t',['../structcy__hpi__master__event__queue__t.html',1,'']]],
+  ['cy_5fhpi_5fmaster_5fevent_5ft',['cy_hpi_master_event_t',['../structcy__hpi__master__event__t.html',1,'']]],
+  ['cy_5fhpi_5fmaster_5fslave_5fdev_5ft',['cy_hpi_master_slave_dev_t',['../structcy__hpi__master__slave__dev__t.html',1,'']]],
+  ['cy_5fhpi_5fsnk_5fpps_5favs_5fctrl_5ft',['cy_hpi_snk_pps_avs_ctrl_t',['../unioncy__hpi__snk__pps__avs__ctrl__t.html',1,'']]],
+  ['cy_5fhpi_5fvdm_5fctrl_5fparam_5ft',['cy_hpi_vdm_ctrl_param_t',['../unioncy__hpi__vdm__ctrl__param__t.html',1,'']]],
+  ['cy_5fstc_5fhpi_5fapp_5fcbk_5ft',['cy_stc_hpi_app_cbk_t',['../structcy__stc__hpi__app__cbk__t.html',1,'']]],
+  ['cy_5fstc_5fhpi_5fconfiguration_5ft',['cy_stc_hpi_configuration_t',['../structcy__stc__hpi__configuration__t.html',1,'']]],
+  ['cy_5fstc_5fhpi_5fcontext_5ft',['cy_stc_hpi_context_t',['../structcy__stc__hpi__context__t.html',1,'']]],
+  ['cy_5fstc_5fhpi_5fdev_5freg_5ft',['cy_stc_hpi_dev_reg_t',['../structcy__stc__hpi__dev__reg__t.html',1,'']]],
+  ['cy_5fstc_5fhpi_5fdisc_5fmode_5fresp_5ft',['cy_stc_hpi_disc_mode_resp_t',['../structcy__stc__hpi__disc__mode__resp__t.html',1,'']]],
+  ['cy_5fstc_5fhpi_5fevent_5fqueue_5ft',['cy_stc_hpi_event_queue_t',['../structcy__stc__hpi__event__queue__t.html',1,'']]],
+  ['cy_5fstc_5fhpi_5fflash_5fconfig_5ft',['cy_stc_hpi_flash_config_t',['../structcy__stc__hpi__flash__config__t.html',1,'']]],
+  ['cy_5fstc_5fhpi_5fhw_5fconfig_5ft',['cy_stc_hpi_hw_config_t',['../structcy__stc__hpi__hw__config__t.html',1,'']]],
+  ['cy_5fstc_5fhpi_5fi2c_5fcontext_5ft',['cy_stc_hpi_i2c_context_t',['../structcy__stc__hpi__i2c__context__t.html',1,'']]],
+  ['cy_5fstc_5fhpi_5fpd_5fstatus_5ft',['cy_stc_hpi_pd_status_t',['../structcy__stc__hpi__pd__status__t.html',1,'']]],
+  ['cy_5fstc_5fhpi_5fport_5freg_5ft',['cy_stc_hpi_port_reg_t',['../structcy__stc__hpi__port__reg__t.html',1,'']]],
+  ['cy_5fstc_5fhpi_5freg_5fspace_5ft',['cy_stc_hpi_reg_space_t',['../structcy__stc__hpi__reg__space__t.html',1,'']]],
+  ['cy_5fstc_5fhpi_5fstatus_5ft',['cy_stc_hpi_status_t',['../structcy__stc__hpi__status__t.html',1,'']]],
+  ['cy_5fstc_5fhpi_5fucsi_5fstatus_5ft',['cy_stc_hpi_ucsi_status_t',['../structcy__stc__hpi__ucsi__status__t.html',1,'']]]
 ];

@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['read_5fcustomer_5finfo',['read_customer_info',['../structcy__stc__hpi__dev__reg__t.html#ab95e93111e771bf293d80cc741883100',1,'cy_stc_hpi_dev_reg_t']]],
+  ['read_5fdie_5finfo',['read_die_info',['../structcy__stc__hpi__dev__reg__t.html#add745cefb67e1b13e8a760ea8fe38e14',1,'cy_stc_hpi_dev_reg_t']]],
+  ['readpending',['readPending',['../structcy__stc__hpi__ucsi__status__t.html#a9e762e63fa6f0783fad4af43828d97de',1,'cy_stc_hpi_ucsi_status_t']]],
+  ['reg_5f6f_5f68h',['reg_6F_68h',['../structcy__stc__hpi__dev__reg__t.html#a110de721abfdfca30d6601d8c07a43f5',1,'cy_stc_hpi_dev_reg_t']]],
+  ['reglimit',['regLimit',['../structcy__stc__hpi__status__t.html#a893731c9a7f67958ad85f5f4e7192b20',1,'cy_stc_hpi_status_t']]],
+  ['regptr',['regPtr',['../structcy__stc__hpi__status__t.html#ad31763d01ac5a6ee89c89013fe219a06',1,'cy_stc_hpi_status_t']]],
+  ['regspace',['regSpace',['../structcy__stc__hpi__context__t.html#ac0905813b5a4646edd5ddb223b337b91',1,'cy_stc_hpi_context_t']]],
+  ['reserved_5f1',['reserved_1',['../unioncy__hpi__snk__pps__avs__ctrl__t.html#a3c583906ca9da9eca01e411f4a28dc42',1,'cy_hpi_snk_pps_avs_ctrl_t']]],
+  ['reserved_5f2',['reserved_2',['../unioncy__hpi__snk__pps__avs__ctrl__t.html#a9714da75310c633c14e91ad603b34b78',1,'cy_hpi_snk_pps_avs_ctrl_t']]],
+  ['reserved_5f3',['reserved_3',['../unioncy__hpi__snk__pps__avs__ctrl__t.html#ac4f5a68c94475de6d6d1ae1e3430e083',1,'cy_hpi_snk_pps_avs_ctrl_t']]],
+  ['reset_5frqt',['reset_rqt',['../structcy__stc__hpi__dev__reg__t.html#a8ba82e6136b7c984c02b91f773eb2581',1,'cy_stc_hpi_dev_reg_t']]],
+  ['respbufflen',['respBuffLen',['../structcy__hpi__master__context__t.html#ac851e5d1459c10590fbd7a1c9653f51b',1,'cy_hpi_master_context_t']]],
+  ['response',['response',['../structcy__stc__hpi__dev__reg__t.html#a2f4e5ca0da78d46d224eeba6251698be',1,'cy_stc_hpi_dev_reg_t']]],
+  ['response_5flength',['response_length',['../structcy__stc__hpi__dev__reg__t.html#a628462a2b28ecce2632c6f68bbdba834',1,'cy_stc_hpi_dev_reg_t']]],
+  ['rqstd_5fcurrent',['rqstd_current',['../unioncy__hpi__snk__pps__avs__ctrl__t.html#ac63cca91dfc3fa1c2638fabba011af0c',1,'cy_hpi_snk_pps_avs_ctrl_t']]],
+  ['rqstd_5fvoltage',['rqstd_voltage',['../unioncy__hpi__snk__pps__avs__ctrl__t.html#a1010742996da3a7cf32d9e9b7ba8ee49',1,'cy_hpi_snk_pps_avs_ctrl_t']]],
+  ['rsrvd1',['rsrvd1',['../structcy__hpi__vdm__ctrl__param__t_1_1PARAM__T.html#a9b5d161161317f98b0275db7d2114a79',1,'cy_hpi_vdm_ctrl_param_t::PARAM_T']]]
+];

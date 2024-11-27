@@ -1,5 +1,16 @@
 var searchData=
 [
+  ['cy_5fen_5fhpi_5fboot_5fprio_5fconf_5ft',['cy_en_hpi_boot_prio_conf_t',['../group__group__hpis__enums.html#gaba853dff6141e6486fff735454a52e82',1,'cy_hpi_defines_default.h']]],
+  ['cy_5fen_5fhpi_5fdev_5freg_5faddress_5ft',['cy_en_hpi_dev_reg_address_t',['../group__group__hpis__enums.html#ga8da893f7770767bfb887d5b7e9a8f003',1,'cy_hpi_defines_default.h']]],
+  ['cy_5fen_5fhpi_5fi2c_5fcb_5fcmd_5ft',['cy_en_hpi_i2c_cb_cmd_t',['../group__group__hpis__enums.html#ga545573c9a09edc95242bb5743f08e747',1,'cy_hpi_defines_default.h']]],
+  ['cy_5fen_5fhpi_5fi2c_5fowner_5ft',['cy_en_hpi_i2c_owner_t',['../group__group__hpis__enums.html#gaa6c9ab62fc039f254fb4d5a5245187d8',1,'cy_hpi_defines_default.h']]],
+  ['cy_5fen_5fhpi_5fport_5freg_5faddress_5ft',['cy_en_hpi_port_reg_address_t',['../group__group__hpis__enums.html#gac965b8ce9bc9bea5c133ba906e99f747',1,'cy_hpi_defines_default.h']]],
+  ['cy_5fen_5fhpi_5fpps_5favs_5fctrl_5fen_5ft',['cy_en_hpi_pps_avs_ctrl_en_t',['../group__group__hpis__enums.html#ga6fa4c78a8e13b2f03377e4fbf365ec2d',1,'cy_hpi_defines_default.h']]],
+  ['cy_5fen_5fhpi_5freg_5fpart_5ft',['cy_en_hpi_reg_part_t',['../group__group__hpis__enums.html#gabef9348f381fc829a2a92f82a08a4f0d',1,'cy_hpi_defines_default.h']]],
+  ['cy_5fen_5fhpi_5freg_5fsection_5ft',['cy_en_hpi_reg_section_t',['../group__group__hpis__enums.html#ga8c4dea72cfc88cadfebde99e5844a313',1,'cy_hpi_defines_default.h']]],
+  ['cy_5fen_5fhpi_5fresponse_5ft',['cy_en_hpi_response_t',['../group__group__hpis__enums.html#ga77c4beeee6760fc510cf93e2233c10bd',1,'cy_hpi_defines_default.h']]],
+  ['cy_5fen_5fhpi_5fstatus_5ft',['cy_en_hpi_status_t',['../group__group__hpis__enums.html#gad6cd0abd546a3d183b35b1c3df88ed63',1,'cy_hpi_defines_default.h']]],
+  ['cy_5fen_5fhpi_5fsys_5fhw_5ferror_5ft',['cy_en_hpi_sys_hw_error_t',['../group__group__hpis__enums.html#gaf78400670123c11b0d459c0b07c277a0',1,'cy_hpi_defines_default.h']]],
   ['cy_5fhpi_5fmaster_5fdev_5freg_5ft',['cy_hpi_master_dev_reg_t',['../group__group__hpim__enums.html#gad4ca548d43528d780bb010c1a96cc3fd',1,'cy_hpi_master_defines.h']]],
   ['cy_5fhpi_5fmaster_5fevt_5fmask_5ft',['cy_hpi_master_evt_mask_t',['../group__group__hpim__enums.html#ga962a2d8607b15e6723aa02936faf4803',1,'cy_hpi_master_defines.h']]],
   ['cy_5fhpi_5fmaster_5fport_5freg_5ft',['cy_hpi_master_port_reg_t',['../group__group__hpim__enums.html#ga0d5c1d38c43b527c77d76820e437a155',1,'cy_hpi_master_defines.h']]],

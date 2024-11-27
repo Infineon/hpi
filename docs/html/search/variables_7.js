@@ -1,11 +1,23 @@
 var searchData=
 [
-  ['port',['port',['../group__group__hpim__data__structures.html#a0665923320d50f9474959dc48c76f01b',1,'cy_hpi_master_event_t']]],
-  ['portcount',['portCount',['../group__group__hpim__data__structures.html#a1a3383d8b6e9b7268b1bfb56445e0f01',1,'cy_hpi_master_slave_dev_t']]],
-  ['ptrappcbk',['ptrAppCbk',['../group__group__hpim__data__structures.html#a50a73a592237658a3082629146e93d37',1,'cy_hpi_master_context_t']]],
-  ['ptreventqueue',['ptrEventQueue',['../group__group__hpim__data__structures.html#a4ab91008a57ed7f6ed66d7e8a2522c05',1,'cy_hpi_master_context_t']]],
-  ['ptri2ccontext',['ptrI2cContext',['../group__group__hpim__data__structures.html#aa629402709364ce4b60cce7bf7705932',1,'cy_hpi_master_context_t']]],
-  ['ptrrespbuff',['ptrRespBuff',['../group__group__hpim__data__structures.html#a08e3c40b78768d47ea8b05fa5c27bcd5',1,'cy_hpi_master_context_t']]],
-  ['ptrscbbase',['ptrScbBase',['../group__group__hpim__data__structures.html#a4e8a5f8c8d9611b3f903c2c1372379ec',1,'cy_hpi_master_context_t']]],
-  ['ptrslaves',['ptrSlaves',['../group__group__hpim__data__structures.html#a663d9090cc1e2f14b28d6f9861f094b6',1,'cy_hpi_master_context_t']]]
+  ['headidx',['headIdx',['../structcy__hpi__master__event__queue__t.html#ae8958d6745dd35679192b8aad027268c',1,'cy_hpi_master_event_queue_t']]],
+  ['host_5fcap_5fcontrol',['host_cap_control',['../structcy__stc__hpi__port__reg__t.html#a3381acb291aac8837baa6f2bd0964925',1,'cy_stc_hpi_port_reg_t']]],
+  ['hpi_5fboot_5fvalidate_5ffw',['hpi_boot_validate_fw',['../structcy__stc__hpi__app__cbk__t.html#a30f48ec195f2a1f067ce463e530eada7',1,'cy_stc_hpi_app_cbk_t']]],
+  ['hpi_5fboot_5fvalidate_5ffw_5fcmd',['hpi_boot_validate_fw_cmd',['../structcy__stc__hpi__app__cbk__t.html#afbd1d43431ab7660d44ae1d55fa76c4b',1,'cy_stc_hpi_app_cbk_t']]],
+  ['hpi_5fdev_5fwr_5fhandler_5fext',['hpi_dev_wr_handler_ext',['../structcy__stc__hpi__app__cbk__t.html#a2eccf44c8442ad3965d6edb01e777f2b',1,'cy_stc_hpi_app_cbk_t']]],
+  ['hpi_5fflash_5faccess_5fget_5fstatus',['hpi_flash_access_get_status',['../structcy__stc__hpi__app__cbk__t.html#a9a91e8c8910768b33baa48c5f0fac884',1,'cy_stc_hpi_app_cbk_t']]],
+  ['hpi_5fflash_5fenter_5fmode',['hpi_flash_enter_mode',['../structcy__stc__hpi__app__cbk__t.html#abf4a449685015377245d676875406d51',1,'cy_stc_hpi_app_cbk_t']]],
+  ['hpi_5fflash_5frow_5fread',['hpi_flash_row_read',['../structcy__stc__hpi__app__cbk__t.html#a282b8c38a2ec28ebf6ab9582ea83f741',1,'cy_stc_hpi_app_cbk_t']]],
+  ['hpi_5fflash_5frow_5fwrite',['hpi_flash_row_write',['../structcy__stc__hpi__app__cbk__t.html#aebfda6ef4dc8b197a6a38db72423fad0',1,'cy_stc_hpi_app_cbk_t']]],
+  ['hpi_5fis_5fevent_5fenabled',['hpi_is_event_enabled',['../structcy__stc__hpi__app__cbk__t.html#a288081afdb58fb196ab4eb3e0fcd0872',1,'cy_stc_hpi_app_cbk_t']]],
+  ['hpi_5fport_5fwr_5fhandler_5fext',['hpi_port_wr_handler_ext',['../structcy__stc__hpi__app__cbk__t.html#aa796cbf86863cef625bacf9f1de1af8a',1,'cy_stc_hpi_app_cbk_t']]],
+  ['hpi_5frw_5fpd_5fresp_5fdata',['hpi_rw_pd_resp_data',['../structcy__stc__hpi__app__cbk__t.html#afd88c1b7653143660f0f2fb4327f9f65',1,'cy_stc_hpi_app_cbk_t']]],
+  ['hpi_5fsys_5fget_5fdevice_5fmode',['hpi_sys_get_device_mode',['../structcy__stc__hpi__app__cbk__t.html#a9bbdaa14e0ab87a9be92e108901a4a36',1,'cy_stc_hpi_app_cbk_t']]],
+  ['hpi_5fupdate_5fucsi_5freg_5fspace',['hpi_update_ucsi_reg_space',['../structcy__stc__hpi__app__cbk__t.html#a1b0f742a0a214f038c942e85e085dbe9',1,'cy_stc_hpi_app_cbk_t']]],
+  ['hpi_5fvconn_5fdisable',['hpi_vconn_disable',['../structcy__stc__hpi__app__cbk__t.html#a1215ca82bd8c5f2341946903e945dc14',1,'cy_stc_hpi_app_cbk_t']]],
+  ['hpi_5fvconn_5fenable',['hpi_vconn_enable',['../structcy__stc__hpi__app__cbk__t.html#aad37ae5a8c09de2741e4a6d9e248e7d8',1,'cy_stc_hpi_app_cbk_t']]],
+  ['hpi_5fvers',['hpi_vers',['../structcy__stc__hpi__dev__reg__t.html#a8ec621e7b99af4247862d539717f7abc',1,'cy_stc_hpi_dev_reg_t']]],
+  ['hpi_5fvers_5fext',['hpi_vers_ext',['../structcy__stc__hpi__dev__reg__t.html#aba851ba2a0f21b121f587f808a94adaf',1,'cy_stc_hpi_dev_reg_t']]],
+  ['hpistat',['hpiStat',['../structcy__stc__hpi__context__t.html#aaad6c8b111c9b8d284ee3edc1ee46d78',1,'cy_stc_hpi_context_t']]],
+  ['hpiucsistat',['hpiUcsiStat',['../structcy__stc__hpi__context__t.html#a5ce565d922c4354c9ce987085cef6ca2',1,'cy_stc_hpi_context_t']]]
 ];

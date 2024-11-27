@@ -1,4 +1,24 @@
 var searchData=
 [
-  ['headidx',['headIdx',['../group__group__hpim__data__structures.html#ae8958d6745dd35679192b8aad027268c',1,'cy_hpi_master_event_queue_t']]]
+  ['ec_5fintr_5fwrite',['ec_intr_write',['../structcy__stc__hpi__app__cbk__t.html#a9bed7aff0f8988dad77136950c52e2bd',1,'cy_stc_hpi_app_cbk_t']]],
+  ['ecint',['ecInt',['../structcy__stc__hpi__status__t.html#a5c1d8bfeb3c76770d4c0b1fbeea471ee',1,'cy_stc_hpi_status_t']]],
+  ['ecintpending',['ecIntPending',['../structcy__stc__hpi__status__t.html#ad636adca159c909988345edf7892b90d',1,'cy_stc_hpi_status_t']]],
+  ['ecintpin',['ecIntPin',['../structcy__stc__hpi__hw__config__t.html#a028a814c0e89353e4a1347210d4ee48e',1,'cy_stc_hpi_hw_config_t']]],
+  ['ecintport',['ecIntPort',['../structcy__stc__hpi__hw__config__t.html#a7122c8b310a18b7cad6490d452926283',1,'cy_stc_hpi_hw_config_t']]],
+  ['ecready',['ecReady',['../structcy__stc__hpi__status__t.html#ab415f6aab371a63b0ab4b5fedc10bc12',1,'cy_stc_hpi_status_t']]],
+  ['eff_5fsink_5fpdo_5fmask',['eff_sink_pdo_mask',['../structcy__stc__hpi__port__reg__t.html#ab50c65c837850f31ea8a4ab617d13389',1,'cy_stc_hpi_port_reg_t']]],
+  ['eff_5fsrc_5fpdo_5fmask',['eff_src_pdo_mask',['../structcy__stc__hpi__port__reg__t.html#a8c9a0dd3b58dcd5d78e97f22d3c85cc6',1,'cy_stc_hpi_port_reg_t']]],
+  ['enter_5fflash',['enter_flash',['../structcy__stc__hpi__dev__reg__t.html#ae2552135f9bea2a02488e47d7399356a',1,'cy_stc_hpi_dev_reg_t']]],
+  ['epr_5fsnk_5fpdo_5fselect',['epr_snk_pdo_select',['../structcy__stc__hpi__port__reg__t.html#a7e3b1c45251dcc526396ce0a31b2119d',1,'cy_stc_hpi_port_reg_t']]],
+  ['epr_5fsrc_5fpdo_5fselect',['epr_src_pdo_select',['../structcy__stc__hpi__port__reg__t.html#a487e370a47d0450ee829a873abf5455f',1,'cy_stc_hpi_port_reg_t']]],
+  ['eprexit',['eprExit',['../structcy__stc__hpi__status__t.html#a1696bd17b35f720d2ac29879bb1ff5ce',1,'cy_stc_hpi_status_t']]],
+  ['error_5fhandler',['error_handler',['../structcy__hpi__master__app__cbk__t.html#a89b986bf1e5301f0b9302de1cadf1d44',1,'cy_hpi_master_app_cbk_t']]],
+  ['eval_5fapp_5falt_5fhw_5fcmd',['eval_app_alt_hw_cmd',['../structcy__stc__hpi__app__cbk__t.html#a49cec1599c37a20d6c8ee25db89adf12',1,'cy_stc_hpi_app_cbk_t']]],
+  ['eval_5fapp_5falt_5fmode_5fcmd',['eval_app_alt_mode_cmd',['../structcy__stc__hpi__app__cbk__t.html#aeb2d88881a50fa3949006d53c931e87d',1,'cy_stc_hpi_app_cbk_t']]],
+  ['event_5fhandler',['event_handler',['../structcy__hpi__master__app__cbk__t.html#a28216dd0762ce59ab3ad9cff582793a9',1,'cy_hpi_master_app_cbk_t']]],
+  ['event_5fmask',['event_mask',['../structcy__stc__hpi__port__reg__t.html#ae1f844d2496dc1e7c1a0c41e7202b8ca',1,'cy_stc_hpi_port_reg_t']]],
+  ['eventcode',['eventCode',['../structcy__hpi__master__event__t.html#a6d962ca86a0119c3dd31c33c53daf811',1,'cy_hpi_master_event_t']]],
+  ['eventdata',['eventData',['../structcy__hpi__master__event__t.html#a82f415ceb6fe1af7cd7068aff503e4e3',1,'cy_hpi_master_event_t']]],
+  ['eventqueue',['eventQueue',['../structcy__stc__hpi__context__t.html#a33343538b54a71a72068088ee107df41',1,'cy_stc_hpi_context_t']]],
+  ['extended',['extended',['../structcy__hpi__vdm__ctrl__param__t_1_1PARAM__T.html#a4c9e8cb7f7f49c87d5fbd06ca20758b0',1,'cy_hpi_vdm_ctrl_param_t::PARAM_T']]]
 ];

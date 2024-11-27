@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['slaveaddr',['slaveAddr',['../group__group__hpim__data__structures.html#a6ce3940517f1402dc4b85136329f0244',1,'cy_hpi_master_slave_dev_t']]],
-  ['slavecount',['slaveCount',['../group__group__hpim__data__structures.html#a301e0ad52b17c0792a70251a59a7200a',1,'cy_hpi_master_context_t']]],
-  ['slavedev',['slaveDev',['../group__group__hpim__data__structures.html#a56d76441491b9a4e6bb846c576284033',1,'cy_hpi_master_event_t']]],
-  ['startaddress',['startAddress',['../group__group__hpim__data__structures.html#acaa8daa910afd3000be175bba8ec0223',1,'cy_hpi_master_event_queue_t']]]
+  ['lenlsb',['lenLsb',['../structcy__hpi__vdm__ctrl__param__t_1_1PARAM__T.html#a0070d99c0859f2d0157724621fa0c232',1,'cy_hpi_vdm_ctrl_param_t::PARAM_T']]],
+  ['lenmsb',['lenMsb',['../structcy__hpi__vdm__ctrl__param__t_1_1PARAM__T.html#a894e2a1feb850d5494e80fa03c9e012b',1,'cy_hpi_vdm_ctrl_param_t::PARAM_T']]],
+  ['logaddr',['logAddr',['../structcy__stc__hpi__status__t.html#aeb6fd81e00d9eae5d356fe101e4852b7',1,'cy_stc_hpi_status_t']]]
 ];

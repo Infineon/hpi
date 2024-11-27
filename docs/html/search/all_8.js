@@ -1,11 +1,19 @@
 var searchData=
 [
-  ['port',['port',['../group__group__hpim__data__structures.html#a0665923320d50f9474959dc48c76f01b',1,'cy_hpi_master_event_t']]],
-  ['portcount',['portCount',['../group__group__hpim__data__structures.html#a1a3383d8b6e9b7268b1bfb56445e0f01',1,'cy_hpi_master_slave_dev_t']]],
-  ['ptrappcbk',['ptrAppCbk',['../group__group__hpim__data__structures.html#a50a73a592237658a3082629146e93d37',1,'cy_hpi_master_context_t']]],
-  ['ptreventqueue',['ptrEventQueue',['../group__group__hpim__data__structures.html#a4ab91008a57ed7f6ed66d7e8a2522c05',1,'cy_hpi_master_context_t']]],
-  ['ptri2ccontext',['ptrI2cContext',['../group__group__hpim__data__structures.html#aa629402709364ce4b60cce7bf7705932',1,'cy_hpi_master_context_t']]],
-  ['ptrrespbuff',['ptrRespBuff',['../group__group__hpim__data__structures.html#a08e3c40b78768d47ea8b05fa5c27bcd5',1,'cy_hpi_master_context_t']]],
-  ['ptrscbbase',['ptrScbBase',['../group__group__hpim__data__structures.html#a4e8a5f8c8d9611b3f903c2c1372379ec',1,'cy_hpi_master_context_t']]],
-  ['ptrslaves',['ptrSlaves',['../group__group__hpim__data__structures.html#a663d9090cc1e2f14b28d6f9861f094b6',1,'cy_hpi_master_context_t']]]
+  ['i2c_5fack_5fdisable',['i2c_ack_disable',['../structcy__stc__hpi__i2c__context__t.html#ad328bf6ff2147fa5110c06806b61d31d',1,'cy_stc_hpi_i2c_context_t']]],
+  ['i2c_5fack_5fpending',['i2c_ack_pending',['../structcy__stc__hpi__i2c__context__t.html#a0c5c7df84c11ac9f433491b111fd4ed5',1,'cy_stc_hpi_i2c_context_t']]],
+  ['i2c_5fmaster_5fread',['i2c_master_read',['../structcy__hpi__master__app__cbk__t.html#a606671860be33e00236544688adb478b',1,'cy_hpi_master_app_cbk_t']]],
+  ['i2c_5fmaster_5fwrite',['i2c_master_write',['../structcy__hpi__master__app__cbk__t.html#afd01d09838f7fc3c78286a00e83b9415',1,'cy_hpi_master_app_cbk_t']]],
+  ['i2c_5fstate',['i2c_state',['../structcy__stc__hpi__i2c__context__t.html#af8c55ea38db07f1059ad5b09e5c2b4ce',1,'cy_stc_hpi_i2c_context_t']]],
+  ['i2c_5fwrite_5fcount',['i2c_write_count',['../structcy__stc__hpi__i2c__context__t.html#a6c434cf1ef38565c0b6c3ccb017e1af8',1,'cy_stc_hpi_i2c_context_t']]],
+  ['i2ccontext',['i2cContext',['../structcy__stc__hpi__context__t.html#a09a9391671097e98e83a1409d3a805c9',1,'cy_stc_hpi_context_t']]],
+  ['i2cm_5fgen_5fi2c_5ftunnel_5fcmd',['i2cm_gen_i2c_tunnel_cmd',['../structcy__stc__hpi__app__cbk__t.html#a19981ef8dc29eb0f5c681c5f85ad2863',1,'cy_stc_hpi_app_cbk_t']]],
+  ['i2cowner',['i2cOwner',['../structcy__stc__hpi__ucsi__status__t.html#a2413704810b8000c2621905d1d7de142',1,'cy_stc_hpi_ucsi_status_t']]],
+  ['intr_5fstat',['intr_stat',['../structcy__stc__hpi__dev__reg__t.html#a40d1bd55906be9be6223ce3984ddfc3f',1,'cy_stc_hpi_dev_reg_t']]],
+  ['intr_5fstatus',['intr_status',['../structcy__stc__hpi__port__reg__t.html#ad089b8aebfe3ad2bd8429268aebd879a',1,'cy_stc_hpi_port_reg_t']]],
+  ['intrgpiopin',['intrGpioPin',['../structcy__hpi__master__slave__dev__t.html#a6feafe48ede82aa9b2ee5c67d966113b',1,'cy_hpi_master_slave_dev_t']]],
+  ['intrgpioport',['intrGpioPort',['../structcy__hpi__master__slave__dev__t.html#af36527142b6815cc34949bfbb1fb60ec',1,'cy_hpi_master_slave_dev_t']]],
+  ['intrmask',['intrMask',['../structcy__hpi__master__context__t.html#a7677b4a90bf6fd4063147dbee2c9096e',1,'cy_hpi_master_context_t']]],
+  ['intrreg',['intrReg',['../structcy__hpi__master__slave__dev__t.html#a1a581bdfcae8dad77dbef06cb09adc21',1,'cy_hpi_master_slave_dev_t']]],
+  ['isi2cbusy',['isI2cBusy',['../structcy__stc__hpi__ucsi__status__t.html#ab45c6cfe581fdfe8775055eee2ba7ffc',1,'cy_stc_hpi_ucsi_status_t']]]
 ];

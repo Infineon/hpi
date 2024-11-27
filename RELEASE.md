@@ -1,4 +1,4 @@
-# HPI middleware library 1.0
+# HPI middleware library 1.1.0
 
 ## What's included?
 
@@ -6,8 +6,7 @@ Please see the [README.md](./README.md).
 
 ## Features
 
-* Initial release
-* This version only supports the HPI master features.
+* Added support for the HPI slave features.
 
 ## Supported software and tools
 
@@ -15,12 +14,12 @@ This version of the HPI middleware is validated for compatibility with the follo
 
 | Software and tools                                      | Version |
 | :---                                                    | :----:  |
-| ModusToolbox(TM) software                               | 3.1.0   |
-| MTB CAT2 peripheral driver library (PDL)                | 2.8.0   |
-| PDUtils middleware library                              | 1.20.0  |
-| GCC compiler                                            | 10.3.1  |
-| IAR compiler                                            | 8.42.2  |
-| Arm(R) compiler                                         | 6.13    |
+| ModusToolbox(TM) software                               | 3.3.0   |
+| MTB CAT2 Peripheral Driver Library (PDL)                | 2.13.0  |
+| PDUtils middleware library                              | 1.30.0  |
+| GCC Compiler                                            | 11.3.1  |
+| IAR Compiler                                            | 9.50.2  |
+| Arm(R) Compiler                                         | 6.22    |
 
 ## More information
 

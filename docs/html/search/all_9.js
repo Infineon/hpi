@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['respbufflen',['respBuffLen',['../group__group__hpim__data__structures.html#ac851e5d1459c10590fbd7a1c9653f51b',1,'cy_hpi_master_context_t']]]
+  ['jump_5fto_5fboot',['jump_to_boot',['../structcy__stc__hpi__dev__reg__t.html#aaea6c3e2f219e697e382a368ac791ae5',1,'cy_stc_hpi_dev_reg_t']]]
 ];

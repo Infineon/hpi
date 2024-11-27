@@ -1,4 +1,30 @@
 var searchData=
 [
-  ['datalen',['dataLen',['../group__group__hpim__data__structures.html#ab851c8f998eb63461487af0dfce862a7',1,'cy_hpi_master_event_t']]]
+  ['battery_5fstat',['battery_stat',['../structcy__stc__hpi__dev__reg__t.html#ab2785911d2023391e0aed98a781f7dbe',1,'cy_stc_hpi_dev_reg_t']]],
+  ['bb_5faddl_5ffail_5finfo',['bb_addl_fail_info',['../structcy__stc__hpi__dev__reg__t.html#a96f1c4f864c03e5299dba66f0950de77',1,'cy_stc_hpi_dev_reg_t']]],
+  ['bb_5faltmode_5fstatus',['bb_altmode_status',['../structcy__stc__hpi__dev__reg__t.html#aa1c255b2a58797783ba72180bd8f7ec1',1,'cy_stc_hpi_dev_reg_t']]],
+  ['bb_5fbl_5fversion',['bb_bl_version',['../structcy__stc__hpi__dev__reg__t.html#a2109369bab0e6f8455452abf02b001de',1,'cy_stc_hpi_dev_reg_t']]],
+  ['bb_5fcmd_5freg',['bb_cmd_reg',['../structcy__stc__hpi__dev__reg__t.html#a92589bd5ca5bfa854dd3809c267c5d64',1,'cy_stc_hpi_dev_reg_t']]],
+  ['bb_5fdisable_5freset',['bb_disable_reset',['../structcy__stc__hpi__dev__reg__t.html#a19e2adcaa50303dda846657990c6dfe6',1,'cy_stc_hpi_dev_reg_t']]],
+  ['bb_5ffw_5fversion',['bb_fw_version',['../structcy__stc__hpi__dev__reg__t.html#af21d70624922a04667db557f55958a33',1,'cy_stc_hpi_dev_reg_t']]],
+  ['bb_5fmisc_5finfo',['bb_misc_info',['../structcy__stc__hpi__dev__reg__t.html#a08246a20b0aac4ac652325a00fc03cd5',1,'cy_stc_hpi_dev_reg_t']]],
+  ['bb_5foper_5fmodel',['bb_oper_model',['../structcy__stc__hpi__dev__reg__t.html#acd5997c3a291d5e6bb2c23e9d1976d8e',1,'cy_stc_hpi_dev_reg_t']]],
+  ['bc12_5fcontrol',['bc12_control',['../structcy__stc__hpi__port__reg__t.html#a34b0a7c2a3ebee9ab96388169063e39f',1,'cy_stc_hpi_port_reg_t']]],
+  ['bc12_5fstatus',['bc12_status',['../structcy__stc__hpi__port__reg__t.html#a031a7920b16afb994e50114589e01435',1,'cy_stc_hpi_port_reg_t']]],
+  ['bl_5flast_5frow',['bl_last_row',['../structcy__stc__hpi__dev__reg__t.html#a3495c1f3ec262a831bbefa40ca5c5614',1,'cy_stc_hpi_dev_reg_t']]],
+  ['bllastrow',['blLastRow',['../structcy__stc__hpi__flash__config__t.html#a936d1c18d2425d6327a6e7efcac4588f',1,'cy_stc_hpi_flash_config_t']]],
+  ['boot_5fmode_5freason',['boot_mode_reason',['../structcy__stc__hpi__dev__reg__t.html#a709dbf4bb9a0549764bbdc5542d99b67',1,'cy_stc_hpi_dev_reg_t']]],
+  ['buf_5fsize',['buf_size',['../structcy__stc__hpi__i2c__context__t.html#ae5e446c6593674fd560d7ebaae286cfa',1,'cy_stc_hpi_i2c_context_t']]],
+  ['buffer',['buffer',['../structcy__stc__hpi__i2c__context__t.html#a51d8fad0a050761123f05b0356002ec2',1,'cy_stc_hpi_i2c_context_t']]],
+  ['buffersize',['bufferSize',['../structcy__hpi__master__event__queue__t.html#a618d474cbc55868fb16624db5a7f9896',1,'cy_hpi_master_event_queue_t']]],
+  ['bufsize',['bufSize',['../structcy__stc__hpi__event__queue__t.html#a50f0c9f9060a10acb4ab4b885571f6ea',1,'cy_stc_hpi_event_queue_t']]],
+  ['bus_5fcurrent',['bus_current',['../structcy__stc__hpi__port__reg__t.html#a4f9dbb7500aba1eab1e2bcea76d1efb4',1,'cy_stc_hpi_port_reg_t']]],
+  ['bus_5fvoltage',['bus_voltage',['../structcy__stc__hpi__port__reg__t.html#a5cb5b806c7d858e79541556d6e7fe543',1,'cy_stc_hpi_port_reg_t']]],
+  ['byte_5f102_5freserved',['byte_102_reserved',['../structcy__stc__hpi__port__reg__t.html#a293f3ddf461beaff9b2529734a3bfd25',1,'cy_stc_hpi_port_reg_t']]],
+  ['byte_5f14_5freserved',['byte_14_reserved',['../structcy__stc__hpi__port__reg__t.html#a38693f210ff7f4ca5e5ed6be441ecacc',1,'cy_stc_hpi_port_reg_t']]],
+  ['byte_5f45_5freserved',['byte_45_reserved',['../structcy__stc__hpi__port__reg__t.html#ae6615150cf02867480cea56213cdd30a',1,'cy_stc_hpi_port_reg_t']]],
+  ['byte_5f7_5freserved',['byte_7_reserved',['../structcy__stc__hpi__port__reg__t.html#a312185a6e69194677318d1f77e79f3d5',1,'cy_stc_hpi_port_reg_t']]],
+  ['byte_5f81_5freserved',['byte_81_reserved',['../structcy__stc__hpi__dev__reg__t.html#a0fe52160806b1c7a89e9d153d79225c7',1,'cy_stc_hpi_dev_reg_t']]],
+  ['byte_5f89_5freserved',['byte_89_reserved',['../structcy__stc__hpi__port__reg__t.html#a6f0e5b2f70c1f8b9bfe9be9d6351986e',1,'cy_stc_hpi_port_reg_t']]],
+  ['byte_5f93_5freserved',['byte_93_reserved',['../structcy__stc__hpi__port__reg__t.html#ab68f28771e560d9dc24810e0753a0bce',1,'cy_stc_hpi_port_reg_t']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['maxslavedevices',['maxSlaveDevices',['../group__group__hpim__data__structures.html#a4e01dcb3fc036e6b5fc0b87b4bfb4bdd',1,'cy_hpi_master_context_t']]]
+  ['gotominrcvd',['gotoMinRcvd',['../structcy__stc__hpi__pd__status__t.html#ae5d771cad3213394edc776a7dfefdcb2',1,'cy_stc_hpi_pd_status_t']]]
 ];

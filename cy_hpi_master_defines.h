@@ -1,6 +1,6 @@
 /*******************************************************************************
 * File Name: cy_hpi_master_defines.h
-* \version 1.0
+* \version 1.1.0
 *
 * Defines the macros and data structures for HPI master middleware.
 *
@@ -34,10 +34,10 @@
 /** Mask to set/clear all HPI interrupt status bits. */
 #define CY_HPI_MASTER_INTR_REG_CLEAR_PORT1_INT        (0x04U)
 
-/** HPI master Port-0 number. */
+/** HPI master Port 0 number. */
 #define CY_HPI_MASTER_PORT_NUMBER_0                   (0U)
 
-/** HPI master Port-1 number. */
+/** HPI master Port 1 number. */
 #define CY_HPI_MASTER_PORT_NUMBER_1                   (1U)
 
 /** Signature to request a JUMP_TO_BOOT operation. */
@@ -161,18 +161,18 @@ typedef enum
     CY_HPI_MASTER_EVENT_REJECT_RECEIVED           = 0x8D,   /**< REJECT message received. */
     CY_HPI_MASTER_EVENT_WAIT_RECEIVED             = 0x8E,   /**< WAIT message received. */
     CY_HPI_MASTER_EVENT_HARD_RESET_RECEIVED       = 0x8F,   /**< HARD RESET received. */
-    CY_HPI_MASTER_EVENT_VDM_RECEIVED              = 0x90,   /**< VDM received and is stored in data memory. */
+    CY_HPI_MASTER_EVENT_VDM_RECEIVED              = 0x90,   /**< VDM received and stored in data memory. */
     CY_HPI_MASTER_EVENT_SOURCE_CAP_RECEIVED       = 0x91,   /**< Source capabilities received and the PDOs received are stored
                                                                  in data memory. */
     CY_HPI_MASTER_EVENT_SINK_CAP_RECEIVED         = 0x92,   /**< Sink capabilities received and the PDOs received are stored in
                                                                  data memory. */
-    CY_HPI_MASTER_EVENT_HARD_RESET_SENT           = 0x9A,   /**< HARD RESET is sent by CCG. */
-    CY_HPI_MASTER_EVENT_SOFT_RESET_SENT           = 0x9B,   /**< SOFT RESET is sent by CCG. Event data indicates the
-                                                                 SOFT RESET packet type (SOP, SOP' or SOP''). */
-    CY_HPI_MASTER_EVENT_CABLE_RESET_SENT          = 0x9C,   /**< CABLE RESET is sent by CCG. */
+    CY_HPI_MASTER_EVENT_HARD_RESET_SENT           = 0x9A,   /**< HARD RESET is sent by CCG device. */
+    CY_HPI_MASTER_EVENT_SOFT_RESET_SENT           = 0x9B,   /**< SOFT RESET is sent by CCG device. Event data indicates the
+                                                                 SOFT RESET packet type (SOP, SOP', or SOP''). */
+    CY_HPI_MASTER_EVENT_CABLE_RESET_SENT          = 0x9C,   /**< CABLE RESET is sent by CCG device. */
     CY_HPI_MASTER_EVENT_SOURCE_DISABLED           = 0x9D,   /**< Enters Source disabled state. */
     CY_HPI_MASTER_EVENT_SENDER_TIMEOUT            = 0x9E,   /**< Sender Response timeout occurred. */
-    CY_HPI_MASTER_EVENT_VDM_NO_RESPONSE           = 0x9F,   /**< No response to VDM sent by CCG. */
+    CY_HPI_MASTER_EVENT_VDM_NO_RESPONSE           = 0x9F,   /**< No response to VDM sent by CCG device. */
     CY_HPI_MASTER_EVENT_UNEXPECTED_VOLTAGE        = 0xA0,   /**< Unexpected VBus voltage detected. */
     CY_HPI_MASTER_EVENT_ERROR_RECOVERY            = 0xA1,   /**< Initiates Type-C error recovery. */
     CY_HPI_MASTER_EVENT_BAT_STATUS_RECEIVED       = 0xA2,   /**< Battery status message received. */
@@ -185,7 +185,7 @@ typedef enum
     CY_HPI_MASTER_EVENT_PD_EXTD_MSG_SOP           = 0xAC,   /**< PD extended data message (SOP) received. */
     CY_HPI_MASTER_EVENT_ALT_MODE                  = 0xB0,   /**< Alternate mode related event. Event data contains the SVID
                                                                  corresponding to the mode as well as the event type. */
-    CY_HPI_MASTER_EVENT_APP_HW                    = 0xB1,   /**< Alternate mode control hardware (MUX, HPD etc.) related
+    CY_HPI_MASTER_EVENT_APP_HW                    = 0xB1,   /**< Alternate mode control hardware (MUX, HPD, etc.) related
                                                                  event occurred. */
     CY_HPI_MASTER_EVENT_PD_EXTD_MSG_SOP_PRIME     = 0xB4,   /**< PD extended data message (SOP') received. */
     CY_HPI_MASTER_EVENT_PD_EXTD_MSG_SOP_DPRIME    = 0xB5,   /**< PD extended data message (SOP'') received. */
@@ -198,14 +198,14 @@ typedef enum
  *
  * This enumeration lists the addresses for the HPI device information registers
  * supported by CCGx devices. These registers are used to retrieve firmware mode
- * and version information, and for doing firmware and configuration table updates.
+ * and version information, and doing firmware and configuration table updates.
  */
 typedef enum
 {
-    CY_HPI_MASTER_DEV_REG_DEVICE_MODE             = 0x00,   /**< Device Mode register: specifies FW mode, PD port count
+    CY_HPI_MASTER_DEV_REG_DEVICE_MODE             = 0x00,   /**< Device Mode register: Specifies FW mode, PD port count,
                                                                  and flash row size. */
     CY_HPI_MASTER_DEV_REG_BOOT_MODE_REASON        = 0x01,   /**< Boot Mode Reason register: Specifies validity of each
-                                                                 firmware image. Also reports reason for device staying
+                                                                 firmware image. Also, reports reason for device staying
                                                                  in the Boot mode. */
     CY_HPI_MASTER_DEV_REG_SI_ID                   = 0x02,   /**< Silicon ID: MS byte. */
     CY_HPI_MASTER_DEV_REG_BL_LAST_ROW             = 0x04,   /**< Bootloader last row: LS byte. This is actually the
@@ -218,7 +218,7 @@ typedef enum
     CY_HPI_MASTER_DEV_REG_FLASH_READ_WRITE        = 0x0C,   /**< Flash read/write signature register. */
     CY_HPI_MASTER_DEV_REG_ALL_VERSION_BYTE        = 0x10,   /**< Bootloader version: MSB of build number. */
     CY_HPI_MASTER_DEV_REG_FW_2_VERSION            = 0x20,   /**< FW2 version: LSB of build number. */
-    CY_HPI_MASTER_DEV_REG_FW_BIN_LOC              = 0x28,   /**< FW1 binary location: LSB */
+    CY_HPI_MASTER_DEV_REG_FW_BIN_LOC              = 0x28,   /**< FW1 binary location: LSB. */
     CY_HPI_MASTER_DEV_REG_PORT_ENABLE             = 0x2C,   /**< Port enable command/status register. */
     CY_HPI_MASTER_DEV_REG_SLEEP_CTRL              = 0x2D,   /**< Deep Sleep Control register. */
     CY_HPI_MASTER_DEV_REG_POWER_STAT              = 0x2E,   /**< Power Status register updates status message. */
@@ -250,15 +250,15 @@ typedef enum
 typedef enum
 {
     CY_HPI_MASTER_PORT_REG_VDM_CTRL               = 0x00,   /**< VDM Control register. */
-    CY_HPI_MASTER_PORT_REG_EFF_SRC_PDO_MASK       = 0x02,   /**< Effective Source PDO Mask register: read-only. */
-    CY_HPI_MASTER_PORT_REG_EFF_SINK_PDO_MASK      = 0x03,   /**< Effective Sink PDO Mask register: read-only. */
+    CY_HPI_MASTER_PORT_REG_EFF_SRC_PDO_MASK       = 0x02,   /**< Effective Source PDO Mask register: Read-only. */
+    CY_HPI_MASTER_PORT_REG_EFF_SINK_PDO_MASK      = 0x03,   /**< Effective Sink PDO Mask register: Read-only. */
     CY_HPI_MASTER_PORT_REG_PD_CTRL                = 0x06,   /**< PD Control register. */
-    CY_HPI_MASTER_PORT_REG_PD_STATUS              = 0x08,   /**< PD Status register: LS byte */
+    CY_HPI_MASTER_PORT_REG_PD_STATUS              = 0x08,   /**< PD Status register: LS byte. */
     CY_HPI_MASTER_PORT_REG_TYPE_C_STATUS          = 0x0C,   /**< Type-C Status register. */
     CY_HPI_MASTER_PORT_REG_CURRENT_PDO            = 0x10,   /**< Current PDO register. */
     CY_HPI_MASTER_PORT_REG_CURRENT_RDO            = 0x14,   /**< Current RDO register. */
-    CY_HPI_MASTER_PORT_REG_EVENT_MASK             = 0x24,   /**< Event Mask register: LS byte */
-    CY_HPI_MASTER_PORT_REG_SWAP_RESPONSE          = 0x28,   /**< PD Control register */
+    CY_HPI_MASTER_PORT_REG_EVENT_MASK             = 0x24,   /**< Event Mask register: LS byte. */
+    CY_HPI_MASTER_PORT_REG_SWAP_RESPONSE          = 0x28,   /**< PD Control register. */
 } cy_hpi_master_port_reg_t;
 
 /** \} group_hpim_enums */
@@ -318,7 +318,7 @@ typedef struct cy_hpi_master_event
 }cy_hpi_master_event_t;
 
 /**
-* @brief Defines the solution specific application callback.
+* @brief Defines the solution-specific application callback.
 */
 typedef struct cy_hpi_master_app_cbk
 {
@@ -354,13 +354,13 @@ typedef struct cy_hpi_master_app_cbk
 */
 typedef struct cy_hpi_master_event_queue
 {
-    /** Start address of the buffer */
+    /** Start address of the buffer. */
     uint8_t *startAddress;
 
-    /** Size of the queue buffer */
+    /** Size of the queue buffer. */
     uint16_t bufferSize;
 
-    /** Message start index */
+    /** Message start index. */
     uint16_t headIdx;
 
     /** Message end index. */
@@ -381,23 +381,23 @@ typedef struct cy_hpi_master_context
     /** Pointer to the application callback structure. */
     cy_hpi_master_app_cbk_t *ptrAppCbk;
 
-    /** Pointer to the queue data structure.*/
+    /** Pointer to the queue data structure. */
     cy_hpi_master_event_queue_t *ptrEventQueue;
 
-    /** Supports maximum number of slave device. */
+    /** Supports maximum number of slave devices. */
     const uint8_t maxSlaveDevices;
     
     /** Pointer to the array of slave devices. */
     cy_hpi_master_slave_dev_t *ptrSlaves;
 
-    /** SCB module base address pointer */
+    /** SCB module base address pointer. */
     CySCB_Type *ptrScbBase;
 
     /** The instance-specific context structure. It is used by the driver for 
-        internal configuration and data keeping for the I2C.*/
+        internal configuration and data keeping for the I2C. */
     cy_stc_scb_i2c_context_t *ptrI2cContext;
     
-    /** Response buffer size in bytes. Buffer size should be min of 64-bytes.*/
+    /** Response buffer size in bytes. Buffer size should be min of 64-bytes. */
     const uint16_t respBuffLen;
 
     /** Pointer to the PD response buffer. This buffer is used for handling the
